@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A1C5E9371CDA6CC80039DEA1"
+               BuildableName = "jedi_awakens.app"
+               BlueprintName = "jedi_awakens"
+               ReferencedContainer = "container:jedi_awakens.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A1C5E94B1CDA6CC80039DEA1"
+               BuildableName = "jedi_awakensTests.xctest"
+               BlueprintName = "jedi_awakensTests"
+               ReferencedContainer = "container:jedi_awakens.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A1C5E9561CDA6CC80039DEA1"
+               BuildableName = "jedi_awakensUITests.xctest"
+               BlueprintName = "jedi_awakensUITests"
+               ReferencedContainer = "container:jedi_awakens.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A1C5E9371CDA6CC80039DEA1"
+            BuildableName = "jedi_awakens.app"
+            BlueprintName = "jedi_awakens"
+            ReferencedContainer = "container:jedi_awakens.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A1C5E9371CDA6CC80039DEA1"
+            BuildableName = "jedi_awakens.app"
+            BlueprintName = "jedi_awakens"
+            ReferencedContainer = "container:jedi_awakens.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A1C5E9371CDA6CC80039DEA1"
+            BuildableName = "jedi_awakens.app"
+            BlueprintName = "jedi_awakens"
+            ReferencedContainer = "container:jedi_awakens.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
